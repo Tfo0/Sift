@@ -1,0 +1,49 @@
+# ---- Build output ----
+.gradle/
+build/
+out/
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# ---- Local-only data / archives ----
+resources/dataset
+*.zip
+*.tar.gz
+*.tgz
+*.log
+hs_err_pid*
+
+# ---- Claude / agent worktrees ----
+.claude/
+
+# ---- Docs (source-only repo) ----
+*.md
+/docs/
